@@ -11,7 +11,7 @@ class Prodotto{
   public function __construct(
     String $immagine,
     String $nome,
-    Float $prezzo,
+    String $prezzo,
     Categoria $categoria
     ) {
     $this->immagine = $immagine;

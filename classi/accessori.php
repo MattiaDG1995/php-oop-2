@@ -9,11 +9,11 @@ class accessori extends prodotto {
   public function __construct(
     String $immagine,
     String $nome,
-    Float $prezzo,
+    String $prezzo,
     categoria $categoria,
 
     String $materiali,
-    Int $dimensioni
+    String $dimensioni
     ) {
     $this->materiali = $materiali;
     $this->dimensioni = $dimensioni;

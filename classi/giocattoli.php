@@ -9,11 +9,11 @@ class giocattoli extends prodotto {
   public function __construct(
     String $immagine,
     String $nome,
-    Float $prezzo,
+    String $prezzo,
     categoria $categoria,
 
     String $caratteristiche,
-    Int $dimensioni
+    String $dimensioni
     ) {
     $this->caratteristiche = $caratteristiche;
     $this->dimensioni = $dimensioni;

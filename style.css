@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: brown;
+}
+
+.card{
+    width: calc(100%/3);
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.card img{
+    height: 300px;
+}

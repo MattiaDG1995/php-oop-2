@@ -9,10 +9,10 @@ class cibo extends prodotto {
   public function __construct(
     String $immagine,
     String $nome,
-    Float $prezzo,
+    String $prezzo,
     categoria $categoria,
 
-    Int $peso,
+    String $peso,
     String $ingredienti
     ) {
     $this->peso = $peso;
